@@ -1,1 +1,3 @@
-# docker nginx vhost
+# Docker nginx vhost
+
+# Dockerfile
