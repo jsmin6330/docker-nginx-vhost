@@ -2,7 +2,31 @@
 
 
 ## Dockerfile
+
+### Dockerfile 생성
+```
+# serv-a, serv-b
+FROM nginx
+COPY index.html /usr/share/nginx/html
+```
+
+```
+# lb
+upstream serv{
+    server serv-a:80;
+    server serv-b:80;
+}
+server{
+    listen 80;
+    location /
+    {
+        proxy_pass http://serv;
+    }
+}
+```
+
 ### Build
+각 Dockerfile이 있는 곳에서 해야 한다.
 ```
 sudo docker build -t ng-s-a:0.1.0 .
 sudo docker build -t ng-s-b:0.1.0 .
