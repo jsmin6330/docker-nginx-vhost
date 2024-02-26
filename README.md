@@ -49,4 +49,6 @@ sudo docker network connect ablb lb
 
 sudo docker network inspect abc # 네트워크 상세 정보 보기
 ```
+___
+### Nginx Routing with URL PATH 
 
