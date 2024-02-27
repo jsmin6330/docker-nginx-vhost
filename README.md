@@ -51,7 +51,7 @@ sudo docker network inspect abc # 네트워크 상세 정보 보기
 ```
 ___
 ## v0.2.0 Nginx Routing with URL PATH 
-- [X] URL PATH 에 따라 다른 서비스로 라우팅(서버A, 서버B)
+- URL PATH 에 따라 다른 서비스로 라우팅(서버A, 서버B)
 
 ```
 rmbuildrun-all.sh 
@@ -61,10 +61,10 @@ curl http://localhost:8001/blog
 // v0.3.0 업데이트로 인한 명령어 변경사항
 sh rm-all.sh -> sh rmbuildrun-all.sh 변경 
 ```
-
+___
 ## v0.3.0 Jenkins
 rm-all.sh -> rmbuildrun-all.sh 변경
 rm-all.sh 추가
-- [ ] 도커빌드, 도커푸시 -> hub, 도커네트워크, 도커런 jenkins 이식 
+- 도커빌드, 도커푸시 -> hub, 도커네트워크, 도커런 jenkins 이식 
 
 
