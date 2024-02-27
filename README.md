@@ -54,7 +54,7 @@ ___
 - URL PATH 에 따라 다른 서비스로 라우팅(서버A, 서버B)
 
 ```
-rmbuildrun-all.sh 
+run rmbuildrun-all.sh 
 curl http://localhost:8001
 curl http://localhost:8001/blog
 
