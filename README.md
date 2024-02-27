@@ -52,3 +52,9 @@ sudo docker network inspect abc # 네트워크 상세 정보 보기
 ___
 ### Nginx Routing with URL PATH 
 
+```
+sh rm-all.sh
+http://localhost:8001
+curl http://localhost:8001/blog
+```
+
